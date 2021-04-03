@@ -1,0 +1,12 @@
+' Gambas module file
+
+Public Sub dark()
+  Shell "cp -R /usr/share/extras/dark_wallpaper.png ~/.local/share/wallpapers/pearOS/contents/images/2560x1440.png" Wait
+  Shell "kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell"
+End
+
+
+Public Sub light()
+  Shell "cp -R /usr/share/extras/light_wallpaper.png ~/.local/share/wallpapers/pearOS/contents/images/2560x1440.png" Wait
+  Shell "kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell" Wait
+End

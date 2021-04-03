@@ -1,0 +1,58 @@
+' Gambas class file
+
+Public Sub btn_light_Enter()
+  If btn_light.Picture = Picture["light-normal.png"] Then
+    btn_light.Picture = Picture["light-hover.png"]
+  Endif
+End
+Public Sub btn_light_Leave()
+  If btn_light.Picture = Picture["light-hover.png"] Then
+    btn_light.Picture = Picture["light-normal.png"]
+  Endif
+End
+Public Sub btn_light_MouseDown()
+  'auto_theme.disable()
+  wallpaper_change.light()
+  gtk_set.light()
+  kvantum_set.light()
+  plasma_set.light()
+  btn_light.Picture = Picture["light-active.png"]
+End
+
+
+Public Sub btn_dark_Enter()
+  If btn_dark.Picture = Picture["dark-normal.png"] Then
+    btn_dark.Picture = Picture["dark-hover.png"]
+  Endif
+End
+Public Sub btn_dark_Leave()
+  If btn_dark.Picture = Picture["dark-hover.png"] Then
+    btn_dark.Picture = Picture["dark-normal.png"]
+  Endif
+End
+Public Sub btn_dark_MouseDown()
+  'auto_theme.disable()
+  wallpaper_change.dark()
+  btn_dark.Picture = Picture["dark-active.png"]
+  gtk_set.dark()
+  kvantum_set.dark()
+  plasma_set.dark()
+End
+
+' Public Sub btn_auto_Enter()
+'   If btn_auto.Picture = Picture["auto-normal.png"] Then
+'     btn_auto.Picture = Picture["auto-hover.png"]
+'   Endif
+' End
+' Public Sub btn_auto_Leave()
+'   If btn_auto.Picture = Picture["auto-hover.png"] Then
+'     btn_auto.Picture = Picture["auto-normal.png"]
+'   Endif
+' End
+' Public Sub btn_auto_MouseDown()
+'   auto_theme.enable()
+'   btn_auto.Picture = Picture["auto-active.png"]
+' End
+Public Sub Button1_Click()
+  FAbout.Show
+End

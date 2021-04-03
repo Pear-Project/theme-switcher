@@ -1,0 +1,9 @@
+' Gambas module file
+
+Public Sub light()
+    Shell "lookandfeeltool -a xyz.pearos.alxb421.pearOS"
+End
+
+Public Sub dark()
+    Shell "lookandfeeltool -a xyz.pearos.alxb421.pearOS-dark"
+End
