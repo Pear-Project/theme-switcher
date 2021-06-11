@@ -11,41 +11,35 @@
   }
   { Label2 Label
     MoveScaled(15,31,24,4)
-    Text = ("Theme Switcher")
     Alignment = Align.Center
+    Text = ("Theme Switcher")
   }
   { Label3 Label
-    MoveScaled(15,34,26,4)
+    MoveScaled(12,34,35,4)
     Font = Font["FreeMono"]
-    Text = ("Version: 11 (feb. 2021)")
     Alignment = Align.Center
+    Text = ("Version 12.0-beta (jun. 2021)")
   }
   { Label4 Label
-    MoveScaled(52,60,8,4)
+    MoveScaled(52,62,8,3)
     Font = Font["DejaVu Sans Mono,-3"]
     Text = ("Authors:")
   }
   { Label5 Label
-    MoveScaled(29,62,30,4)
+    MoveScaled(29,64,30,4)
     Font = Font["DejaVu Sans Mono,-3"]
+    Alignment = Align.Right
     Text = ("Alexandru Balan (alxb421#4330)")
-    Alignment = Align.Right
-  }
-  { Label6 Label
-    MoveScaled(35,64,24,4)
-    Font = Font["DejaVu Sans Mono,-3"]
-    Text = ("Axtlos (axtlos#8002)")
-    Alignment = Align.Right
   }
   { PictureBox1 PictureBox
     MoveScaled(19,15,16,16)
-    Picture = Picture["themeChangerIcon.png"]
+    Picture = Picture.Load("themeChangerIcon.png")
     Mode = PictureBox.Contain
   }
   { Label7 Label
     MoveScaled(35,66,24,4)
     Font = Font["DejaVu Sans Mono,-3"]
-    Text = ("Andrei Muntean (equal#7149)")
     Alignment = Align.Right
+    Text = ("Andrei Muntean (equal#7149)")
   }
 }
