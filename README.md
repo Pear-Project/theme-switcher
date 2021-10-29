@@ -2,7 +2,7 @@
 This app is made to allow easy Lightmode- darkmode themes switching by the end-user, in pearOS ThiccSur.
 
 ## Screenshots :)
-![Nice Screenshot](Screenshots/theme-switcher.png)
+![Nice Screenshot](Screenshots/theme-switcher.png){:height="50%" width="50%"}
 
 
 ## Dependencies
@@ -13,21 +13,16 @@ This app is made to allow easy Lightmode- darkmode themes switching by the end-u
    ```
 
 ## Installation steps
- - From Source:
-
-   - clone the project
+ - From repository:
+   - add the pear repository to your `sources.list` file:
    ```sh
-   git clone https://github.com/alxb421/theme-switcher.git
+   echo 'deb [trusted=yes] https://archive.pearos.xyz/ nicec0re/' | sudo tee -a /etc/apt/sources.list
+   sudo apt update
    ```
-   - Open gambas3 application (from terminal `$ gambas3`, or from application dashboard, search for gambas3)
-   - Click `Open`
-   - Navigate to cloned folder, and open the project
-   - Click on `Project` > `Make` > `executable`
-   - copy the new executable in the `/usr/bin` folder of your Linux machine
+   - install the theme switcher:
    ```sh
-   $ sudo mv <path to your generated .gambas file> /usr/bin/themesw
+   sudo apt install theme-switcher
    ```
-   - Enjoy :p
 
  - From Package:
    - Download the .deb package from `Releases` tab here, in GitHub
@@ -41,3 +36,7 @@ This app is made to allow easy Lightmode- darkmode themes switching by the end-u
      - Open a terminal and type `themesw`
    - From Application Daskboard:
      - Search for Theme Switcher with the nice icon made by Andrei Muntean. All rights reserved to him.
+
+
+## Copyright
+* This application is released under the Pear Public License v1. See LICENSE file for details
