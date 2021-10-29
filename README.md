@@ -1,5 +1,5 @@
 # Theme Switcher app for pearOS
-This app is made to allow easy Lightmode- darkmode themes switching by the end-user, in pearOS ThiccSur.
+This app is made to switch between Light mode and Dark mode in pearOS and all NiceC0re based systems
 
 ## Screenshots :)
 ![Nice Screenshot](Screenshots/theme-switcher.png)
