@@ -1,9 +1,0 @@
-' Gambas module file
-
-Public Sub light()
-  Shell "kvantummanager --set pearOS"
-End
-
-Public Sub dark()
-  Shell "kvantummanager --set pearOS-dark"
-End
