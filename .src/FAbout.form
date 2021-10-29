@@ -14,11 +14,11 @@
     Alignment = Align.Center
     Text = ("Theme Switcher")
   }
-  { Label3 Label
-    MoveScaled(12,34,35,4)
+  { lbl_version Label
+    MoveScaled(13,34,28,4)
     Font = Font["FreeMono"]
     Alignment = Align.Center
-    Text = ("Version 12.0-beta (jun. 2021)")
+    Text = ("Version 1.0 (oct. 2021)")
   }
   { Label4 Label
     MoveScaled(52,62,8,3)

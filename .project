@@ -1,6 +1,6 @@
 # Gambas Project File 3.0
 Startup=FMain
-Version=0.0.3
+Version=0.0.8
 Component=gb.image
 Component=gb.gtk3
 Component=gb.form

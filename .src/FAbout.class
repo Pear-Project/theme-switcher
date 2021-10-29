@@ -1,6 +1,6 @@
 ' Gambas class file
 
-Public Sub Label3_MouseDown()
+Public Sub lbl_version_MouseDown()
 
   
 
