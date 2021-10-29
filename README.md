@@ -2,7 +2,7 @@
 This app is made to allow easy Lightmode- darkmode themes switching by the end-user, in pearOS ThiccSur.
 
 ## Screenshots :)
-![Nice Screenshot](Screenshots/theme-switcher.png){:height="50%" width="50%"}
+![Nice Screenshot](Screenshots/theme-switcher.png)
 
 
 ## Dependencies
